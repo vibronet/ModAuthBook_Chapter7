@@ -61,6 +61,10 @@ namespace WebAppChapter7
 
                         // Another example: manipulation of the authentication experience by changing OpenID Connect parameters
                         // context.ProtocolMessage.Prompt = "login";
+
+                        // yet another example of auth experience manipulation (from chapter 8)
+                        // notification.ProtocolMessage.Prompt = "admin_consent";
+
                         return Task.FromResult(0);
                     },
                     // an alternative to inlining the notification implementation: 
